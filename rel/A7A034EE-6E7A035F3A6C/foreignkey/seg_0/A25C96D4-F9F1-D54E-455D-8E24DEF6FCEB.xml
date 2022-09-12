@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A25C96D4-F9F1-D54E-455D-8E24DEF6FCEB" containerWithKeyObject="1AFC976B-BEA0-F819-15AD-3CEB33827337" localFKIndex="FC6ED870-717F-673D-A04E-9610387C040F" name="JENIS_PEMBAYARAN_PENGHUNI_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>18172C46-54AB-703F-D994-E68E19899046</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<referredTableLongName>PENGHUNI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3230892D-143D-DB9C-6201-8EE56B1CF8F4</referredTableID>
+<keyObject>A78629B9-B080-BA0D-D9E6-729E43EAE098</keyObject>
+<referredKeyID>A78629B9-B080-BA0D-D9E6-729E43EAE098</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_penghuni</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

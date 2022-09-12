@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3230892D-143D-DB9C-6201-8EE56B1CF8F4" name="PENGHUNI">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>C4568602-BD3F-9779-C7FE-EDE62963A9E4</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penghuni" id="8DBE213A-B2D1-70D6-866F-388D64A48233">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>9EDDD2A0-A12D-A8F8-AF2A-6FBFE2C529E5</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_penghuni" id="8F7A5F1E-48A5-88F1-7BC9-0CE6928FE075">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>F2DF2D4C-3B97-D207-B2EC-51462A823C9D</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pekerjaan" id="E0288FA7-1705-9167-14FA-0B578AA53E42">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>01B6C2C8-8A92-0198-54B2-F39626E23DCE</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asal" id="FB8C9DA3-BFDD-B5B7-91E4-8141857D8E9B">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>6C19E5F5-204B-D3B5-82F9-C35923FF5B88</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tgl_masuk" id="800024A9-D51F-3401-CE8D-EEF02CC132D6">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>0D1E8B3D-D652-D048-3F22-2E39431551C8</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_hp" id="7933FE6C-AEBF-1B31-7452-0B9D1A465FC5">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>0FBE4731-F983-C2DB-8128-2099083E15B0</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KAMAR_KOST_id_kamar" id="F346C3E8-1843-B0B8-A462-8D67A6649C7C">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>76BF98F9-F470-B4B2-813F-0DFE268D0C4E</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4BE1127-FD0E-8B31-5F68-6AF2C98EC499" referredColumn="43EE177E-C630-EA45-FA6E-8F621CD8518A"/>
+</associations>
+</Column>
+<Column name="KAMAR_KOST_PEMILIK_id_pemilik" id="A5042BE1-9615-2390-1963-C73B83E9D0FB">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>B24C02A5-CA8D-DDF8-7538-035CCE9D3EA9</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4BE1127-FD0E-8B31-5F68-6AF2C98EC499" referredColumn="D37FF93A-14EF-9870-4F29-DEE88FDF462E"/>
+</associations>
+</Column>
+<Column name="TIPEv1_id_tipe" id="8EDDF5AA-B301-761B-9812-3085A7BA3913">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>AA8A3C3F-1B57-5662-0548-588F80D5DFBE</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B194D71-18CA-1582-A6B4-9CF2399FA1A5" referredColumn="EF141D35-F381-73A1-E68D-5B08F83B1FCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A78629B9-B080-BA0D-D9E6-729E43EAE098" name="PENGHUNI_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>0F70267E-CCC2-075A-5691-28675B423DBA</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DBE213A-B2D1-70D6-866F-388D64A48233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="172E8CA2-5765-16B6-EBB0-C0469445BB9C" name="PENGHUNI__IDX">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71600119-EA23-A6C3-958B-7DF61219763D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F346C3E8-1843-B0B8-A462-8D67A6649C7C"/>
+<colUsage columnID="A5042BE1-9615-2390-1963-C73B83E9D0FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A52FC33-96BD-2052-051B-DFA9EA54EC17" name="PENGHUNI__IDX">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:12 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1200A32D-7598-E2FA-837C-7D0E5B6AB4AC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8EDDF5AA-B301-761B-9812-3085A7BA3913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="648FB536-AA10-C479-0518-DE579367BE07" name="PENGHUNI_KAMAR_KOST_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>71600119-EA23-A6C3-958B-7DF61219763D</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F346C3E8-1843-B0B8-A462-8D67A6649C7C"/>
+<colUsage columnID="A5042BE1-9615-2390-1963-C73B83E9D0FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A722E9DC-334B-6521-DB2A-0D067DD5B539" name="PENGHUNI_TIPEv1_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:12 UTC</createdTime>
+<generatorID>1200A32D-7598-E2FA-837C-7D0E5B6AB4AC</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDDF5AA-B301-761B-9812-3085A7BA3913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

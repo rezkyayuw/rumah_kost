@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9562CD6-2E92-57A4-B3C9-A4C922DBB9B1" name="SEWA">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:18:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sewa" id="4C9E54BF-C289-46DA-C2EF-38B789CD3FDC">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:19:07 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_sewa" id="7BD51453-7A89-0B5E-0B25-30FEC73A0624">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:19:27 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penghuni" id="EEBC2E84-BF5E-F680-5028-73CB323E595E">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:01:33 UTC</createdTime>
+<generatorID>18172C46-54AB-703F-D994-E68E19899046</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<referedAttribute>9EDDD2A0-A12D-A8F8-AF2A-6FBFE2C529E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_bayar" id="87C8EDD8-B045-1CCA-14CC-186075740D0D">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:22:24 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BC76F4B-790B-2658-CAE1-719757443601" name="JENIS PEMBAYARAN PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:19:22 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C9E54BF-C289-46DA-C2EF-38B789CD3FDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

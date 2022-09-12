@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACD8A33D-5C18-A34E-32CB-060CC4FF0619" name="TUNAI">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 10:06:12 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C9562CD6-2E92-57A4-B3C9-A4C922DBB9B1</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tunai" id="27E42341-01F6-A25E-EA8F-4BD7AF2314A0">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 10:06:38 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

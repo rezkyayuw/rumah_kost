@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DEABE46-9A22-415B-6FBD-DC4BF3A74830" name="TIPE">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:25:17 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipe" id="65DA78B2-59C7-D819-C180-8033F4F2BA18">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:25:17 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipe_kamar" id="F72B6182-7982-2E79-941A-61070ED8F550">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:25:17 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="51308EBC-CC93-EC3F-39C3-BC8F54741043">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:25:17 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20546780-E5D7-2D83-7ADE-62459D273273" name="PEMILIK PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-28 08:25:17 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65DA78B2-59C7-D819-C180-8033F4F2BA18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

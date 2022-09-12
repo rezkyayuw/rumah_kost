@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F691A2B2-5874-C135-13E5-E6564FBE01CB" name="BANK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>517630AA-ADA2-E170-B66B-9A2EDB3AC750</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bank" id="7AA7F6AA-DC43-66B1-E2EE-D6956BCA5ACC">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>4DFC4B1D-D3D5-6FB0-9EBD-0AFF0B54BF80</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_bank" id="60862F7E-33C8-811A-DD3F-4FF9017BA5CD">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>2E18A2E1-D5F2-97B1-3053-424DD7AF5A9F</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JENIS_PEMBAYARAN_id_pembayaran" id="CD931A7A-AC4C-84D9-344D-E1912A71757D">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>75E4BB70-97F2-160C-C085-D7D459CC5511</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EE3BABD-FE81-9979-42B8-AE002F67B7F9" referredColumn="E5686D12-651D-7074-4974-45C022617FAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE1B9F6D-5E04-6A63-D9D9-F8A005A509A0" name="BANK_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>26AE2926-E190-6BA2-8BFD-AB103DE63AED</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA7F6AA-DC43-66B1-E2EE-D6956BCA5ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA1338E-1DC0-079F-CBF8-52EFEE328A12" name="BANK__IDX">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2662CEB0-0181-98E8-38E5-6C7FC1A1A1CE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CD931A7A-AC4C-84D9-344D-E1912A71757D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="858B9FFF-B076-E7E1-0E34-872017920C23" name="BANK_JENIS_PEMBAYARAN_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>2662CEB0-0181-98E8-38E5-6C7FC1A1A1CE</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD931A7A-AC4C-84D9-344D-E1912A71757D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

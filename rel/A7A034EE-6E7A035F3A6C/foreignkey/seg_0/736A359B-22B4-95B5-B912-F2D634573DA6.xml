@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="736A359B-22B4-95B5-B912-F2D634573DA6" containerWithKeyObject="ABE56F4E-05A6-46ED-553A-D418B07F2B61" localFKIndex="7698EA83-52CF-943C-5DB6-978E7533D211" name="Relation_20_HARGA_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>CC58A54F-E805-3648-8027-BB10CB665502</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<referredTableLongName>HARGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0268BC0C-C484-55DB-FFEA-29FE69E86BFD</referredTableID>
+<keyObject>6FD1626F-AC9F-E3C0-85AB-29091EBB109B</keyObject>
+<referredKeyID>6FD1626F-AC9F-E3C0-85AB-29091EBB109B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_harga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

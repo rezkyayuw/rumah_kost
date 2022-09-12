@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BA4AC7F-BB4C-CCF4-9CC6-8E4E757242EA" name="PEMILIK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>3E61F46D-AE6C-0F8E-99D3-CE6D1C8AAF3D</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pemilik" id="4FB556EB-A67A-CE17-1574-6EB767D504F9">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>2C2CC161-2E5B-7188-F5B6-6CB9984A22C0</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pemilik" id="5DF1541F-A7AF-13CF-FF16-6FF75EDDA90E">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>25EE67CE-4F75-CBE5-7A81-5AA0369C2AC7</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="CAF52144-2D1E-9CFE-3539-A65D73B402D2">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>0DF80AF8-80F3-6B62-8FF8-607CCD692FE8</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_rekening" id="1213F759-21D2-680F-A813-66FFE7AB3730">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>3369BAB9-4C6F-D96D-F3A3-C0397537CADC</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3439AE66-D007-1375-E25A-EE1B804A3510" name="PEMILIK_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>2BEBB6AC-97D0-F1F8-CA3F-179D4BAFD048</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FB556EB-A67A-CE17-1574-6EB767D504F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

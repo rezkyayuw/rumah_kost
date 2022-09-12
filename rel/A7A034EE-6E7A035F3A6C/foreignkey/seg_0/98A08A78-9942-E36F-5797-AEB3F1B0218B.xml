@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98A08A78-9942-E36F-5797-AEB3F1B0218B" containerWithKeyObject="2E9FEE9E-2281-53C7-B520-AA0B5CC7BF0F" localFKIndex="9DC6E642-9F2C-5C2F-3B32-48AC4B34D195" name="LAPORAN_PEMILIK_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>24E4B704-7723-2B54-A7A5-F05615728E14</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<referredTableLongName>PEMILIK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BA4AC7F-BB4C-CCF4-9CC6-8E4E757242EA</referredTableID>
+<keyObject>3439AE66-D007-1375-E25A-EE1B804A3510</keyObject>
+<referredKeyID>3439AE66-D007-1375-E25A-EE1B804A3510</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pemilik</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A32B1E07-52A5-E61D-DB70-E03D2A90983C" containerWithKeyObject="1E86ED81-BA9E-9721-8AEC-7AC54D34D2C0" localFKIndex="383FBE21-B8E3-CBD0-355C-F01000B41A04" name="BANKv1_JENIS_PEMBAYARAN_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:12 UTC</createdTime>
+<generatorID>491B4D34-8BD2-13B5-48C6-9932F9A9ACC3</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<referredTableLongName>JENIS_PEMBAYARAN</referredTableLongName>
+<arc>4D0E11D3-9358-0E90-F5CF-98A31AAE63DD</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1AFC976B-BEA0-F819-15AD-3CEB33827337</referredTableID>
+<keyObject>28F78088-9158-76A2-E3F6-23F84805E9DC</keyObject>
+<referredKeyID>28F78088-9158-76A2-E3F6-23F84805E9DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sewa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

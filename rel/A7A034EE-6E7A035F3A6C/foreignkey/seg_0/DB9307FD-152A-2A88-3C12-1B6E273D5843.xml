@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB9307FD-152A-2A88-3C12-1B6E273D5843" containerWithKeyObject="111E09E9-261C-CAE2-9122-455E0E928D63" localFKIndex="4E438FA0-978D-175A-DBB9-9CB9BCC0E9E1" name="Relation_10_KAMAR_KOST_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>34624948-7D26-1B58-E033-2817FED0A526</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<referredTableLongName>KAMAR_KOST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C16EA570-A291-29D4-ECAB-6653FB612EC2</referredTableID>
+<keyObject>8EECDBA6-C985-3DEC-B53A-39B709CD8C14</keyObject>
+<referredKeyID>8EECDBA6-C985-3DEC-B53A-39B709CD8C14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kamar,PEMILIK_id_pemilik</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
