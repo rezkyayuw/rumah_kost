@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="44315979-9B36-5A8A-65D2-33AFA7D959F4" mainViewID="24CA88E5-629F-DB14-C539-9B49D497E74D" boundModel="35BC301C-BCD5-C792-ED99-A3A673EC5159">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:05:16 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

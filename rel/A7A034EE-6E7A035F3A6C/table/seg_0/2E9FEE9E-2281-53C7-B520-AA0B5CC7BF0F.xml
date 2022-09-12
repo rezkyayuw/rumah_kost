@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E9FEE9E-2281-53C7-B520-AA0B5CC7BF0F" name="LAPORAN">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>B6FD0FBF-09ED-E88D-0C87-8BB542898555</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_laporan" id="1A687645-F5C6-AF35-E69D-3C9B6431F514">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>59195EDF-901D-78F2-D627-9A16473CC398</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_penghuni" id="E7FCD866-269E-5234-D036-F004A5233371">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>FF23E18C-6A48-1E8D-BCC7-380D2F8F0E92</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tgl_bayar" id="8B9D1F49-0901-45DE-4EDA-C77CFF2E59B2">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>8ACF1D86-3E8F-BB84-59F5-280FE7FF204A</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_harga" id="5FF22B9A-1CBC-7AA0-C143-E4EE3DA15C38">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>A61A7978-1DE2-411E-6FF2-12945336927E</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pembayaran" id="870DF113-573B-778E-B9AF-2083ABDC09F6">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>E613C423-932E-A2FA-37EA-412215C58018</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_status" id="52C8A382-EF9B-6B73-3D51-B08BFED251EA">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>B176E9A3-D341-7AA0-7F62-CDFBB4A7A813</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEMILIK_id_pemilik" id="A26447A7-C914-15C8-89AC-043A1CBA166D">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>95DFD6CA-F550-15BD-5406-45E07DC05947</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98A08A78-9942-E36F-5797-AEB3F1B0218B" referredColumn="4FB556EB-A67A-CE17-1574-6EB767D504F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8918237F-8A18-D510-9EEB-E80FEABE7C05" name="LAPORAN_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>EA6DD964-F440-6BC5-E17E-9CFD165A42DF</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A687645-F5C6-AF35-E69D-3C9B6431F514"/>
+<colUsage columnID="A26447A7-C914-15C8-89AC-043A1CBA166D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DC6E642-9F2C-5C2F-3B32-48AC4B34D195" name="LAPORAN_PEMILIK_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>24E4B704-7723-2B54-A7A5-F05615728E14</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A26447A7-C914-15C8-89AC-043A1CBA166D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

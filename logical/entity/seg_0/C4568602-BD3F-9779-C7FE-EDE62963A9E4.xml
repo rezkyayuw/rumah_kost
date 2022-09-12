@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4568602-BD3F-9779-C7FE-EDE62963A9E4" name="PENGHUNI">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:24:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_penghuni" id="9EDDD2A0-A12D-A8F8-AF2A-6FBFE2C529E5">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:24:58 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_penghuni" id="F2DF2D4C-3B97-D207-B2EC-51462A823C9D">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:25:09 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pekerjaan" id="01B6C2C8-8A92-0198-54B2-F39626E23DCE">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:25:23 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asal" id="6C19E5F5-204B-D3B5-82F9-C35923FF5B88">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:25:30 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_masuk" id="0D1E8B3D-D652-D048-3F22-2E39431551C8">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:26:02 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_hp" id="0FBE4731-F983-C2DB-8128-2099083E15B0">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:26:12 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipe" id="AA8A3C3F-1B57-5662-0548-588F80D5DFBE">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 13:29:19 UTC</createdTime>
+<generatorID>1200A32D-7598-E2FA-837C-7D0E5B6AB4AC</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<referedAttribute>65DA78B2-59C7-D819-C180-8033F4F2BA18</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F70267E-CCC2-075A-5691-28675B423DBA" name="PENGHUNI PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 16:25:06 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EDDD2A0-A12D-A8F8-AF2A-6FBFE2C529E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

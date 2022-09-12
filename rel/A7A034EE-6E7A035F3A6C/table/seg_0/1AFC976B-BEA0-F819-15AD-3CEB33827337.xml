@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AFC976B-BEA0-F819-15AD-3CEB33827337" name="JENIS_PEMBAYARAN">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>C9562CD6-2E92-57A4-B3C9-A4C922DBB9B1</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sewa" id="E5686D12-651D-7074-4974-45C022617FAF">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>4C9E54BF-C289-46DA-C2EF-38B789CD3FDC</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_sewa" id="0569E397-D6BF-E8DE-D11B-9B0BA0A9EBD9">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>7BD51453-7A89-0B5E-0B25-30FEC73A0624</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENGHUNI_id_penghuni" id="2B891ABA-5D8A-1C6D-ACBD-B5E6842976E7">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>EEBC2E84-BF5E-F680-5028-73CB323E595E</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A25C96D4-F9F1-D54E-455D-8E24DEF6FCEB" referredColumn="8DBE213A-B2D1-70D6-866F-388D64A48233"/>
+</associations>
+</Column>
+<Column name="tgl_bayar" id="40C29B62-C943-082F-7D33-0F30B5C30B7F">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>87C8EDD8-B045-1CCA-14CC-186075740D0D</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28F78088-9158-76A2-E3F6-23F84805E9DC" name="JENIS_PEMBAYARAN_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>3BC76F4B-790B-2658-CAE1-719757443601</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5686D12-651D-7074-4974-45C022617FAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2C6EE9E-082A-0633-C5B3-924A631EDCC5" name="JENIS_PEMBAYARAN__IDX">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>18172C46-54AB-703F-D994-E68E19899046</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2B891ABA-5D8A-1C6D-ACBD-B5E6842976E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC6ED870-717F-673D-A04E-9610387C040F" name="JENIS_PEMBAYARAN_PENGHUNI_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>18172C46-54AB-703F-D994-E68E19899046</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B891ABA-5D8A-1C6D-ACBD-B5E6842976E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

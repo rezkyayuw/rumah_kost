@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABE56F4E-05A6-46ED-553A-D418B07F2B61" name="Relation_20">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KAMAR_KOST_id_kamar" id="BF4234BB-EAA9-80BA-9A34-7889EA0A6806">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18586AEB-8ABA-E424-8783-423DE2F465E9" referredColumn="43EE177E-C630-EA45-FA6E-8F621CD8518A"/>
+</associations>
+</Column>
+<Column name="KAMAR_KOST_PEMILIK_id_pemilik" id="A0F9B0CB-5C26-5650-06A3-08263D158DC2">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18586AEB-8ABA-E424-8783-423DE2F465E9" referredColumn="D37FF93A-14EF-9870-4F29-DEE88FDF462E"/>
+</associations>
+</Column>
+<Column name="HARGA_id_harga" id="0365B350-722D-926E-1D8C-CCC543574888">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="736A359B-22B4-95B5-B912-F2D634573DA6" referredColumn="949269B4-0875-4B92-E779-A79C67209A22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D7E4241-6762-521A-D73F-A49FCA82F4D2" name="Relation_20_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF4234BB-EAA9-80BA-9A34-7889EA0A6806"/>
+<colUsage columnID="A0F9B0CB-5C26-5650-06A3-08263D158DC2"/>
+<colUsage columnID="0365B350-722D-926E-1D8C-CCC543574888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21A4B70A-9C66-5A1D-D84E-84803E2D1B08" name="Relation_20_KAMAR_KOST_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>CC58A54F-E805-3648-8027-BB10CB665502</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF4234BB-EAA9-80BA-9A34-7889EA0A6806"/>
+<colUsage columnID="A0F9B0CB-5C26-5650-06A3-08263D158DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7698EA83-52CF-943C-5DB6-978E7533D211" name="Relation_20_HARGA_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 17:07:47 UTC</createdTime>
+<generatorID>CC58A54F-E805-3648-8027-BB10CB665502</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0365B350-722D-926E-1D8C-CCC543574888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

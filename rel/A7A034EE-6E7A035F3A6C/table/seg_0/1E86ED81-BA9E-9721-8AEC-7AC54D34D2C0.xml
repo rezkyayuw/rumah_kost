@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E86ED81-BA9E-9721-8AEC-7AC54D34D2C0" name="BANKv1">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>F9D8305D-53A6-1871-545A-31B6BA888BFE</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sewa" id="DF083511-8058-BB74-5826-88DAA3A75DC6">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>4C9E54BF-C289-46DA-C2EF-38B789CD3FDC</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A32B1E07-52A5-E61D-DB70-E03D2A90983C" referredColumn="E5686D12-651D-7074-4974-45C022617FAF"/>
+</associations>
+</Column>
+<Column name="nama_bank" id="46A78C4B-F498-4C61-69E6-258A75933222">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>621C4F53-4F3C-8C9F-47F5-ABF2EF7441D5</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25D34353-FCCD-50A4-6E6F-A1CE14DDB7ED" name="BANKv1_PK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:11 UTC</createdTime>
+<generatorID>3BC76F4B-790B-2658-CAE1-719757443601</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF083511-8058-BB74-5826-88DAA3A75DC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="383FBE21-B8E3-CBD0-355C-F01000B41A04" name="BANKv1_JENIS_PEMBAYARAN_FK">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 15:30:12 UTC</createdTime>
+<generatorID>491B4D34-8BD2-13B5-48C6-9932F9A9ACC3</generatorID>
+<ownerDesignName>rumah kost</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF083511-8058-BB74-5826-88DAA3A75DC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

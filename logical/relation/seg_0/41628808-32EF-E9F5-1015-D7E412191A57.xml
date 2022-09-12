@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="41628808-32EF-E9F5-1015-D7E412191A57">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-09-11 13:08:58 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<engineerTo>
+<item key="A7A034EE-839E-DADF-A7B5-6E7A035F3A6C" value="true"/>
+</engineerTo>
+<sourcePk>20546780-E5D7-2D83-7ADE-62459D273273</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>memiliki</nameOnSource>
+<nameOnTarget>dimiliki</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8DEABE46-9A22-415B-6FBD-DC4BF3A74830</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F5ED951-4AFE-C7E6-33EC-B8FA721660BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

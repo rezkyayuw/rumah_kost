@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="rumah kost" id="3095BD60-8B14-2C3D-7424-F573A6CA0AFB" version="3.5">
+<createdBy>hp14s</createdBy>
+<createdTime>2022-07-27 15:47:25 UTC</createdTime>
+<ownerDesignName>rumah kost</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3095BD60-8B14-2C3D-7424-F573A6CA0AFB</designId>
+</OSDM_Design>
